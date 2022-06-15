@@ -7,6 +7,7 @@
 
 import Foundation
 
+//최대공약수
 func gcd(_ a: Int,_ b: Int) -> Int{
     let r = a % b
     if r != 0 {
@@ -16,6 +17,7 @@ func gcd(_ a: Int,_ b: Int) -> Int{
     }
 }
 
+//최소공배수
 func lcm(_ m: Int, _ n: Int) -> Int {
     return (m * n) / gcd(m, n)
 }
